@@ -1,5 +1,4 @@
-//let age = prompt('Твій вік:');
-var age =22;
+let age = prompt('Твій вік:');
 if (age <= 0 || age >= 100){
     console.log('Ви ввели невірний вік'); 
 } else if (isNaN(age)){
